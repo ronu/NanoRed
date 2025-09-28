@@ -22,9 +22,14 @@ new line
     tab
 ```
 
-| header | content |
-| ------ | ------- |
-| meta | something |
+| header | content | abcd |
+| ------ | ------- | ----:|
+| meta | something |  123 |
+| meta | something |  123 |
+| meta | something |  123 |
+| meta | something |  123 |
+| meta | something |  123 |
+| meta | something |  123 |
 
 > hello
 >

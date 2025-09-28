@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="description" content="{{ description }}">
     <meta name="keywords" content="{{ tags | join:', ' }}">
-    <meta name="author" content="{{ author | default:'Anonymous' }}">
+    <meta name="author" content="{{ author }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/media/post.css" />
 </head>
@@ -15,7 +15,10 @@
     <header>
         <a href="/">Go back</a>
         <h1>{{ title }}</h1>
+        <h4>{{ description }}</h4>
+        {% if author %}
         <p>By {{ author | default:'Anonymous' }}</p>
+        {% endif %}
         <p>{{ date | date:'%A, %B %e, %Y' }}</p>
         <p>
             {% for tag in tags %}

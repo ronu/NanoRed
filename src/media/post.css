@@ -6,8 +6,56 @@
 html {
     font-family: 'lato';
     font-size: 125%;
+    color: #112;
 }
 
 h1 {
-    color: blue;
+    color: #224;
+}
+
+h2 {
+    color: #336;
+}
+
+h3 {
+    color: #448;
+}
+
+h4 {
+    color: #55a;
+}
+
+h5 {
+    color: #66c;
+}
+
+h6 {
+    color: #77e;
+}
+
+a,
+a:visited {
+    color: #11e;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #e11;
+}
+
+blockquote {
+    margin-left: 0;
+    border-left: 0.1rem solid blue;
+    padding-left: 1rem;
+}
+
+pre,
+code:not(pre>code) {
+    background: #222;
+    color: white;
+    padding: 0.25rem;
 }

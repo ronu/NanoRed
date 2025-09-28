@@ -3,9 +3,17 @@
     src: url('/media/Lato-Light.ttf');
 }
 
+* {
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
 html {
     font-family: 'lato';
     font-size: 125%;
+}
+
+p {
     color: #211;
 }
 
@@ -58,4 +66,27 @@ code:not(pre>code) {
     background: #222;
     color: white;
     padding: 0.25rem;
+}
+
+table {
+    width: 100%;
+}
+
+table th,
+table td {
+    padding: 0.25rem;
+}
+
+table th {
+    color: white;
+    background: #811;
+}
+
+table tr:nth-child(2n) {
+    background: #fcc;
+}
+
+::selection {
+    /* color: white; */
+    background-color: rgba(255, 0, 0, 0.25);
 }

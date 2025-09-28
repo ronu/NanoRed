@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>NanoRed</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Deep dives, instant reads.">
+    <meta name="keywords" content="deep, dives, instant, reads">
+    <meta name="author" content="Nicolas Ventura">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/media/post.css" />
+</head>
+
+<body>
+    <header>
+        <h1>NanoRed</h1>
+        <h2>Deep dives, instant reads.</h2>
+    </header>
+    <main>
+        {% for apost in collections.post %}
+        <a href="{{ apost.url }}">
+            <div>
+                <h2>{{ apost.data.title }}</h2>
+                <p>{{ apost.data.description }}</p>
+            </div>
+        </a>
+        {% endfor %}
+        <p>This website was last updated {{ 'now' | date_to_long_string }}</p>
+    </main>
+    <footer>
+        <p>&copy; {{ 'now' | date:'%Y' }} <a href="/">NanoRed</a></p>
+    </footer>
+</body>
+
+</html>

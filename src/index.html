@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="/media/post.css" />
 </head>
 
+
 <body>
     <header>
         <h1>NanoRed</h1>
@@ -27,16 +28,17 @@
             {% endfor %}
         </p>
         <h2>Latest Posts</h2>
-        {% for apost in collections.post %}
-        <a href="{{ apost.url }}">
+        {% assign recent_posts = collections.post | reverse | slice:0,5 %}
+        {% for post in recent_posts %}
+        <a href="{{ post.url }}">
             <div>
-                <h3>{{ apost.data.title }}</h3>
-                <p><small>{{ apost.data.date | date_to_long_string }}</small></p>
-                <p>{{ apost.data.description }}</p>
+                <h3>{{ post.data.title }}</h3>
+                <p><small>{{ post.data.date | date_to_long_string }}</small></p>
+                <p>{{ post.data.description }}</p>
             </div>
         </a>
         {% endfor %}
-        <p><a href="#">See All Posts</a></p>
+        <p><a href="/all">See All Posts</a></p>
     </main>
     <footer>
         <p>&copy; {{ 'now' | date:'%Y' }} <a href="/">NanoRed</a></p>

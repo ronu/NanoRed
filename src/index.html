@@ -14,18 +14,29 @@
 <body>
     <header>
         <h1>NanoRed</h1>
-        <h2>Deep dives, instant reads.</h2>
+        <h4>Deep dives, instant reads.</h4>
     </header>
     <main>
+        <p>This website was last updated on {{ 'now' | date_to_long_string }}.</p>
+        <h2>Browse Categories</h2>
+        <p>
+            {% for collection in collections %}
+            {% if collection[0] != 'post' and collection[0] != 'all' %}
+            <small>#{{ collection[0] | upcase }}</small>
+            {% endif %}
+            {% endfor %}
+        </p>
+        <h2>Latest Posts</h2>
         {% for apost in collections.post %}
         <a href="{{ apost.url }}">
             <div>
-                <h2>{{ apost.data.title }}</h2>
+                <h3>{{ apost.data.title }}</h3>
+                <p><small>{{ apost.data.date | date_to_long_string }}</small></p>
                 <p>{{ apost.data.description }}</p>
             </div>
         </a>
         {% endfor %}
-        <p>This website was last updated {{ 'now' | date_to_long_string }}</p>
+        <p><a href="#">See All Posts</a></p>
     </main>
     <footer>
         <p>&copy; {{ 'now' | date:'%Y' }} <a href="/">NanoRed</a></p>

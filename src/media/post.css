@@ -11,6 +11,17 @@
 html {
     font-family: 'lato';
     font-size: 125%;
+    background: #fee;
+    height: 100%;
+}
+
+body {
+    background: white;
+    max-width: 50rem;
+    margin: auto;
+    border: 1px solid transparent;
+    padding: 1rem;
+    min-height: 100%;
 }
 
 p {

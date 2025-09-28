@@ -5,7 +5,7 @@
     <title>{{ title }}</title>
     <meta charset="UTF-8">
     <meta name="description" content="{{ description }}">
-    <meta name="keywords" content="{{ tags }}">
+    <meta name="keywords" content="{{ tags | join:', ' }}">
     <meta name="author" content="{{ author | default:'Anonymous' }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/media/post.css" />

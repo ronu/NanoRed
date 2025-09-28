@@ -9,33 +9,33 @@ html {
     color: #211;
 }
 
-h1 {
+h6 {
     color: #422;
 }
 
-h2 {
+h5 {
     color: #633;
 }
 
-h3 {
+h4 {
     color: #844;
 }
 
-h4 {
+h3 {
     color: #a55;
 }
 
-h5 {
+h2 {
     color: #c66;
 }
 
-h6 {
+h1 {
     color: #e77;
 }
 
 a,
 a:visited {
-    color: #e11;
+    color: red;
     text-decoration: none;
 }
 

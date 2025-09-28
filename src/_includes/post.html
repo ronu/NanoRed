@@ -18,8 +18,10 @@
         <p>By {{ author | default:'Anonymous' }}</p>
         <p>{{ date | date:'%A, %B %e, %Y' }}</p>
         <p>
-            {% for category in categories %}
-            <span>#{{ category }}</span>
+            {% for tag in tags %}
+            {% if tag != 'post' %}
+            <span>#{{ tag | upcase }}</span>
+            {% endif %}
             {% endfor %}
         </p>
     </header>

@@ -3,8 +3,14 @@ title: First post
 description: About me
 author: Nicolas Ventura
 date: 2025-09-28
-categories:
+tags:
     - test
     - first
 ---
 Hello!
+
+```
+here is some code
+new line
+    tab
+```

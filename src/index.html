@@ -23,7 +23,7 @@
         <p>
             {% for collection in collections %}
             {% if collection[0] != 'post' and collection[0] != 'all' %}
-            <small>#{{ collection[0] | upcase }}</small>
+            <small><a href="/tag/{{ collection[0] | slugify }}">#{{ collection[0] | upcase }}</a></small>
             {% endif %}
             {% endfor %}
         </p>

@@ -6,36 +6,36 @@
 html {
     font-family: 'lato';
     font-size: 125%;
-    color: #112;
+    color: #211;
 }
 
 h1 {
-    color: #224;
+    color: #422;
 }
 
 h2 {
-    color: #336;
+    color: #633;
 }
 
 h3 {
-    color: #448;
+    color: #844;
 }
 
 h4 {
-    color: #55a;
+    color: #a55;
 }
 
 h5 {
-    color: #66c;
+    color: #c66;
 }
 
 h6 {
-    color: #77e;
+    color: #e77;
 }
 
 a,
 a:visited {
-    color: #11e;
+    color: #e11;
     text-decoration: none;
 }
 
@@ -44,13 +44,13 @@ a:hover {
 }
 
 a:active {
-    color: #e11;
+    color: #7e1;
 }
 
 blockquote {
-    margin-left: 0;
-    border-left: 0.1rem solid blue;
-    padding-left: 1rem;
+    margin-left: 0.25rem;
+    border-left: 0.25rem solid red;
+    padding-left: 1.5rem;
 }
 
 pre,

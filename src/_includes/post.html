@@ -20,7 +20,7 @@
         <p>
             {% for tag in tags %}
             {% if tag != 'post' %}
-            <span>#{{ tag | upcase }}</span>
+            <small>#{{ tag | upcase }}</small>
             {% endif %}
             {% endfor %}
         </p>

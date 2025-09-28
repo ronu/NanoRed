@@ -8,10 +8,12 @@
     <meta name="keywords" content="{{ tags }}">
     <meta name="author" content="{{ author | default:'Anonymous' }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/media/post.css" />
 </head>
 
 <body>
     <header>
+        <a href="/">Go back</a>
         <h1>{{ title }}</h1>
         <p>By {{ author | default:'Anonymous' }}</p>
         <p>{{ date | date:'%A, %B %e, %Y' }}</p>

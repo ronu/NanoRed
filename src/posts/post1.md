@@ -7,7 +7,7 @@ tags:
     - test
     - first
 ---
-Hello!
+Hello! *Here* is some **bold** text.
 
 ```
 here is some code

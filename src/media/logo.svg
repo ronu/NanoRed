@@ -12,70 +12,66 @@
   <defs
      id="defs2" />
   <g
-     id="layer1">
-    <g
-       id="g3651"
-       transform="translate(-2.0091399,4.0936503)">
-      <text
-         xml:space="preserve"
-         style="font-size:10.6667px;font-family:FreeSans;-inkscape-font-specification:FreeSans;fill:#333333;stroke-width:3.77953;stroke-linejoin:round;stroke-dasharray:11.3386, 11.3386"
-         x="14.904472"
-         y="45.847702"
-         id="text1516"><tspan
-           id="tspan1514"
-           x="14.904472"
-           y="45.847702"
-           style="font-size:10.6667px">NANO</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:24px;font-family:FreeSans;-inkscape-font-specification:FreeSans;fill:#ff0000;stroke-width:3.77953;stroke-linejoin:round;stroke-dasharray:11.3386, 11.3386"
-         x="45.99094"
-         y="53.869022"
-         id="text1520"><tspan
-           id="tspan1518"
-           x="45.99094"
-           y="53.869022"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono Bold'">RED</tspan></text>
-      <circle
-         style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         id="path2510"
-         cx="43.52219"
-         cy="48.5"
-         r="1" />
-      <circle
-         style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         id="circle2618"
-         cx="32.066551"
-         cy="51.96283"
-         r="1" />
-      <path
-         style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         d="m 33.066551,51.96283 h 15.07434"
-         id="path2683" />
-      <path
-         style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         d="m 44.136983,49.288689 2.874103,2.674141"
-         id="path2689" />
-      <circle
-         style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         id="circle2787"
-         cx="39.170616"
-         cy="48.5"
-         r="1" />
-      <path
-         style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         d="m 39.785409,49.288689 2.874103,2.674141"
-         id="path2789" />
-      <circle
-         style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         id="circle2893"
-         cx="34.819042"
-         cy="48.5"
-         r="1" />
-      <path
-         style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-         d="m 35.819042,48.5 h 2.351574"
-         id="path2895" />
-    </g>
+     id="g1618">
+    <text
+       xml:space="preserve"
+       style="font-size:10.6667px;font-family:FreeSans;-inkscape-font-specification:FreeSans;fill:#333333;stroke-width:3.77953;stroke-linejoin:round;stroke-dasharray:11.3386, 11.3386"
+       x="12.895332"
+       y="49.941353"
+       id="text1516"><tspan
+         id="tspan1514"
+         x="12.895332"
+         y="49.941353"
+         style="font-size:10.6667px">NANO</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-family:FreeSans;-inkscape-font-specification:FreeSans;fill:#ff0000;stroke-width:3.77953;stroke-linejoin:round;stroke-dasharray:11.3386, 11.3386"
+       x="43.9818"
+       y="57.962673"
+       id="text1520"><tspan
+         id="tspan1518"
+         x="43.9818"
+         y="57.962673"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono Bold'">RED</tspan></text>
+    <circle
+       style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="path2510"
+       cx="41.51305"
+       cy="52.593651"
+       r="1" />
+    <circle
+       style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle2618"
+       cx="30.057411"
+       cy="56.05648"
+       r="1" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 31.057411,56.05648 h 15.07434"
+       id="path2683" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 42.127843,53.382339 2.874103,2.674141"
+       id="path2689" />
+    <circle
+       style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle2787"
+       cx="37.161476"
+       cy="52.593651"
+       r="1" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 37.776269,53.382339 2.874103,2.674141"
+       id="path2789" />
+    <circle
+       style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="circle2893"
+       cx="32.809902"
+       cy="52.593651"
+       r="1" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 33.809902,52.59365 h 2.351574"
+       id="path2895" />
   </g>
 </svg>

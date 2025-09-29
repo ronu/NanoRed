@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="100"
-   height="100"
-   viewBox="0 0 100 100"
+   width="80"
+   height="60"
+   viewBox="0 0 80 60"
    version="1.1"
    id="svg5"
    xmlns="http://www.w3.org/2000/svg"
@@ -12,66 +12,66 @@
   <defs
      id="defs2" />
   <g
-     id="g1618">
+     id="g1778">
     <text
        xml:space="preserve"
        style="font-size:10.6667px;font-family:FreeSans;-inkscape-font-specification:FreeSans;fill:#333333;stroke-width:3.77953;stroke-linejoin:round;stroke-dasharray:11.3386, 11.3386"
-       x="12.895332"
-       y="49.941353"
+       x="2.8953326"
+       y="29.941351"
        id="text1516"><tspan
          id="tspan1514"
-         x="12.895332"
-         y="49.941353"
+         x="2.8953326"
+         y="29.941351"
          style="font-size:10.6667px">NANO</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;font-family:FreeSans;-inkscape-font-specification:FreeSans;fill:#ff0000;stroke-width:3.77953;stroke-linejoin:round;stroke-dasharray:11.3386, 11.3386"
-       x="43.9818"
-       y="57.962673"
+       x="33.9818"
+       y="37.962673"
        id="text1520"><tspan
          id="tspan1518"
-         x="43.9818"
-         y="57.962673"
+         x="33.9818"
+         y="37.962673"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono Bold'">RED</tspan></text>
     <circle
        style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        id="path2510"
-       cx="41.51305"
-       cy="52.593651"
+       cx="31.51305"
+       cy="32.593651"
        r="1" />
     <circle
        style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        id="circle2618"
-       cx="30.057411"
-       cy="56.05648"
+       cx="20.057411"
+       cy="36.05648"
        r="1" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-       d="m 31.057411,56.05648 h 15.07434"
+       d="m 21.057411,36.056479 h 15.07434"
        id="path2683" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-       d="m 42.127843,53.382339 2.874103,2.674141"
+       d="m 32.127843,33.382338 2.874103,2.674141"
        id="path2689" />
     <circle
        style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        id="circle2787"
-       cx="37.161476"
-       cy="52.593651"
+       cx="27.161476"
+       cy="32.593651"
        r="1" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-       d="m 37.776269,53.382339 2.874103,2.674141"
+       d="m 27.776269,33.382338 2.874103,2.674141"
        id="path2789" />
     <circle
        style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        id="circle2893"
-       cx="32.809902"
-       cy="52.593651"
+       cx="22.809902"
+       cy="32.593651"
        r="1" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
-       d="m 33.809902,52.59365 h 2.351574"
+       d="m 23.809902,32.593649 h 2.351574"
        id="path2895" />
   </g>
 </svg>

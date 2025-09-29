@@ -21,11 +21,13 @@
         <p>This website was last updated on {{ 'now' | date_to_long_string }}.</p>
         <h2>Browse Categories</h2>
         <p>
-            {% for collection in collections %}
-            {% if collection[0] != 'post' and collection[0] != 'all' %}
-            <small><a href="/tag/{{ collection[0] | slugify }}">#{{ collection[0] | upcase }}</a></small>
+            {% assign tags = collections | keys | slice:0,5 %}
+            {% for tag in tags %}
+            {% if tag != 'post' and tag != 'all' %}
+            <small><a href="/tag/{{ tag | slugify }}">#{{ tag | upcase }}</a></small>
             {% endif %}
             {% endfor %}
+            <small>or <a href="/tag">see all</a></small>
         </p>
         <h2>Latest Posts</h2>
         {% assign recent_posts = collections.post | reverse | slice:0,5 %}

@@ -115,10 +115,15 @@ img {
 
 div.row {
     display: flex;
-    /* flex-wrap: wrap; */
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+}
+
+div.col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 ::selection {

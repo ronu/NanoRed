@@ -77,9 +77,10 @@ a:active {
 }
 
 blockquote {
-    margin-left: 0.25rem;
+    margin: 0;
     border-left: 0.25rem solid red;
-    padding-left: 1.5rem;
+    padding-left: 1.75rem;
+    background: #eee;
 }
 
 pre,

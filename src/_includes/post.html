@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header style="position: relative;">
+    <header>
         <div class="row">
             <div>
                 <h1>{{ title }}</h1>
@@ -30,15 +30,17 @@
                     {% endfor %}
                 </p>
             </div>
-            <div>
-                <a href="/" title="Go home"><img src="/media/logo.svg" alt="NanoRed" /></a>
+            <div class="col">
+                <div>
+                    <a href="/" title="Go home"><img src="/media/logo.svg" alt="NanoRed" /></a>
+                </div>
+                {% if thumbnail_url %}
+                <div style="max-width: 15rem; max-height: 15rem;">
+                    <img src="{{ thumbnail_url }}" alt="Thumbnail" />
+                </div>
+                {% endif %}
             </div>
         </div>
-        {% if thumbnail_url %}
-        <div style="position: absolute; max-width: 10rem; max-height: 10rem; right: 1rem; bottom: 1rem;">
-            <img src="{{ thumbnail_url }}" alt="Thumbnail" />
-        </div>
-        {% endif %}
     </header>
     <main>{{ content }}</main>
     <footer>

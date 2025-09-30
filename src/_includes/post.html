@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header>
+    <header style="position: relative;">
         <div class="row">
             <div>
                 <h1>{{ title }}</h1>
@@ -34,6 +34,11 @@
                 <a href="/" title="Go home"><img src="/media/logo.svg" alt="NanoRed" /></a>
             </div>
         </div>
+        {% if thumbnail_url %}
+        <div style="position: absolute; max-width: 10rem; max-height: 10rem; right: 1rem; bottom: 1rem;">
+            <img src="{{ thumbnail_url }}" alt="Thumbnail" />
+        </div>
+        {% endif %}
     </header>
     <main>{{ content }}</main>
     <footer>

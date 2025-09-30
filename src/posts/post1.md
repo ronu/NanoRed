@@ -6,6 +6,7 @@ date: 2025-09-28
 tags:
     - test
     - first
+thumbnail_url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/960px-Image_created_with_a_mobile_phone.png
 ---
 # Heading 1
 ## Heading 2
@@ -42,6 +43,10 @@ here is some `inline` code
 ---
 
 ~~The world is flat.~~
+
+Here's an image:
+
+![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/960px-Image_created_with_a_mobile_phone.png)
 
 # H1
 ## H2

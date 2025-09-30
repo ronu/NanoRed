@@ -17,7 +17,7 @@
     <header>
         <div class="row">
             <div>
-                <img src="/media/logo.svg" alt="NanoRed" height="100%" />
+                <img src="/media/logo.svg" alt="NanoRed" style="max-width: initial; width: 200%;" />
             </div>
             <div>
                 <h4>Deep dives, instant reads.</h4>
@@ -42,10 +42,17 @@
         {% assign recent_posts = collections.post | reverse | slice:0,5 %}
         {% for post in recent_posts %}
         <a href="{{ post.url }}">
-            <div>
-                <h3>{{ post.data.title }}</h3>
-                <p><small>{{ post.data.date | date_to_long_string }}</small></p>
-                <p>{{ post.data.description }}</p>
+            <div class="row" style="background: #eee; margin: 1rem 0; padding: 1rem;">
+                <div>
+                    <p><small>{{ post.data.date | date_to_long_string }}</small></p>
+                    <h3>{{ post.data.title }}</h3>
+                    <p>{{ post.data.description }}</p>
+                </div>
+                {% if post.data.thumbnail_url %}
+                <div style="max-width: 10rem; max-height: 10rem;">
+                    <img src="{{ post.data.thumbnail_url }}" alt="{{ title }}" />
+                </div>
+                {% endif %}
             </div>
         </a>
         {% endfor %}

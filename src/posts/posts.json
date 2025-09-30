@@ -1,5 +1,9 @@
 {
     "layout": "post.html",
+    "title": "Untitled",
+    "description": "A classic NanoRed read.",
+    "author": "Anonymous",
+    "date": "2000-01-01",
     "tags": [
         "post"
     ],

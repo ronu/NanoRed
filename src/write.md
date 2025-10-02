@@ -22,6 +22,10 @@ The following fields are optional, but recommended to even further personalize y
     - This is shown on the front page and at the top of the article's page
     - Unfortunately, we cannot accept raw image files, so they will need to be uploaded to a service like [postimage](https://postimages.org/) or [imgbb](https://imgbb.com/) to generate a URL for the image
 
+## Contributing Guidelines
+
+<!-- TODO -->
+
 ## Ready, Set, Go!
 
 When you're ready, send an email to <nanored@nicfv.com> with your metadata and article contents (this can be shared through Google Docs, for example) and it will be published after a quick review. Feel free to send an email if you have any questions or feedback, too! Hope to see you soon!

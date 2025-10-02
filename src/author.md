@@ -2,6 +2,8 @@
 layout: post.html
 pagination:
     data: collections.authors
+    filter:
+        - Anonymous
     size: 1
     alias: author1
 permalink: "@{{ author1 | slugify }}/"

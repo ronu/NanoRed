@@ -34,9 +34,9 @@
                 <div>
                     <a href="/" title="Go home"><img src="/media/logo.svg" alt="NanoRed" /></a>
                 </div>
-                {% if thumbnail.url %}
+                {% if thumbnail %}
                 <div style="max-width: 15rem; max-height: 15rem;">
-                    <img src="{{ thumbnail.url }}" alt="{{ thumbnail.alt | default:'Thumbnail' }}" />
+                    <img src="{{ thumbnail }}" alt="Thumbnail" />
                 </div>
                 {% endif %}
             </div>

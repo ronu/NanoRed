@@ -15,6 +15,7 @@ tags:
     - Categories
     - or topics
     - for this article
+thumbnail: URL of an image to use as the thumbnail
 ```
 
 ## For Developers

@@ -26,7 +26,7 @@ The following fields are optional, but recommended to even further personalize y
 
 ## Contributing Guidelines
 
-NanoRed is an inclusive space that respects all opinions and points of view. Additionally, many topics are allowed and encouraged to be explored here. There are a few rules listed below to keep the peace that NanoRed is striving to cultivate.
+You might be thinking, *what can I write about?* The answer is pretty much anything! NanoRed is an inclusive space that respects all opinions and points of view. Additionally, many topics are allowed and encouraged to be explored here. There are a few rules listed below to keep the peace that NanoRed is striving to cultivate.
 
 1. **Respect**: Personal attacks, insults, harrassment, bullying, and hate speech are forbidden.
 1. **Content**: Illegal, defamatory, copyrighted, and NSFW material are forbidden.

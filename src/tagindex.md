@@ -5,6 +5,7 @@ pagination:
     filter:
         - all
         - post
+        - authors
     size: 1
     alias: tag 
 permalink: "tag/{{ tag | slugify }}/"

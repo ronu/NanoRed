@@ -6,7 +6,9 @@ date: 2025-09-28
 tags:
     - test
     - first
-thumbnail_url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/960px-Image_created_with_a_mobile_phone.png
+thumbnail:
+    alt: Hello, world!
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/960px-Image_created_with_a_mobile_phone.png
 ---
 # Heading 1
 ## Heading 2

@@ -19,7 +19,7 @@
                 <h1>{{ title }}</h1>
                 <h4>{{ description }}</h4>
                 {% if author %}
-                <p>Written by {{ author }}</p>
+                <p>Written by <a href="/@{{ author | slugify }}">{{ author }}</a></p>
                 {% endif %}
                 <p>{{ date | date:'%A, %B %e, %Y' }}</p>
                 <p>
@@ -34,9 +34,9 @@
                 <div>
                     <a href="/" title="Go home"><img src="/media/logo.svg" alt="NanoRed" /></a>
                 </div>
-                {% if thumbnail_url %}
+                {% if thumbnail.url %}
                 <div style="max-width: 15rem; max-height: 15rem;">
-                    <img src="{{ thumbnail_url }}" alt="Thumbnail" />
+                    <img src="{{ thumbnail.url }}" alt="{{ thumbnail.alt | default:'Thumbnail' }}" />
                 </div>
                 {% endif %}
             </div>

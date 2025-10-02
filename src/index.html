@@ -48,9 +48,9 @@
                     <h3>{{ post.data.title }}</h3>
                     <p>{{ post.data.description }}</p>
                 </div>
-                {% if post.data.thumbnail_url %}
+                {% if post.data.thumbnail.url %}
                 <div style="max-width: 10rem; max-height: 10rem;">
-                    <img src="{{ post.data.thumbnail_url }}" alt="{{ title }}" />
+                    <img src="{{ post.data.thumbnail.url }}" alt="{{ post.data.thumbnail.alt | default:'Thumbnail' }}" />
                 </div>
                 {% endif %}
             </div>

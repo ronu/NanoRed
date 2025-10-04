@@ -41,20 +41,7 @@
         <h2>Latest Posts</h2>
         {% assign recent_posts = collections.post | reverse | slice:0,5 %}
         {% for post in recent_posts %}
-        <a href="{{ post.url }}">
-            <div class="row" style="background: #eee; margin: 1rem 0; padding: 1rem;">
-                <div>
-                    <p><small>{{ post.data.date | date_to_long_string }}</small></p>
-                    <h3>{{ post.data.title }}</h3>
-                    <p>{{ post.data.description }}</p>
-                </div>
-                {% if post.data.thumbnail %}
-                <div style="max-width: 10rem; max-height: 10rem;">
-                    <img src="{{ post.data.thumbnail }}" alt="{{ post.data.title }}" />
-                </div>
-                {% endif %}
-            </div>
-        </a>
+        {% include 'feat.html' post:post %}
         {% endfor %}
         <p><a href="/all">See All Posts</a></p>
     </main>

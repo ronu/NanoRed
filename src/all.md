@@ -4,7 +4,7 @@ title: All Posts
 description: See all archived posts.
 pagination:
     data: collections.post
-    size: 2
+    size: 10
     alias: posts
     reverse: true
 permalink: "p{{ pagination.pageNumber | plus:1 }}/"

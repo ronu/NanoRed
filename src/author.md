@@ -14,6 +14,6 @@ eleventyComputed:
 
 {% assign authored = collections.authors[author1] | reverse %}
 
-| Date | Post |
-| ---- | ---- |{% for post in authored %}
-| {{ post.data.date | date_to_long_string }} | [{{ post.data.title }}]({{ post.url }}) |{% endfor %}
+{% for post in authored %}
+{% include 'feat.html' post:post %}
+{% endfor %}

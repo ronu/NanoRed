@@ -1,0 +1,12 @@
+<a href="{{ post.url }}">
+    <div class="row" style="background: #eee; margin: 1rem 0; padding: 1rem;">
+        <div>
+            <p><small>{{ post.data.date | date_to_long_string }}</small></p>
+            <h3>{{ post.data.title }}</h3>
+            <p>{{ post.data.description }}</p>
+        </div>
+        {% if post.data.thumbnail %}<div style="max-width: 10rem; max-height: 10rem;">
+            <img src="{{ post.data.thumbnail }}" alt="{{ post.data.title }}" />
+        </div>{% endif %}
+    </div>
+</a>

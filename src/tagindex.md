@@ -18,6 +18,6 @@ eleventyComputed:
 
 {% assign tagged_posts = collections[tag] | reverse %}
 
-| Date | Post |
-| ---- | ---- |{% for post in tagged_posts %}
-| {{ post.data.date | date_to_long_string }} | [{{ post.data.title }}]({{ post.url }}) |{% endfor %}
+{% for post in tagged_posts %}
+{% include 'feat.html' post:post %}
+{% endfor %}

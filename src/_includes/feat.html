@@ -5,8 +5,8 @@
             <h3>{{ post.data.title }}</h3>
             <p>{{ post.data.description }}</p>
         </div>
-        {% if post.data.thumbnail %}<div style="max-width: 10rem; max-height: 10rem;">
-            <img src="{{ post.data.thumbnail }}" alt="{{ post.data.title }}" />
-        </div>{% endif %}
+        {% if post.data.thumbnail %}
+        <img src="{{ post.data.thumbnail }}" alt="{{ post.data.title }}" style="max-width: 10rem; max-height: 10rem;" />
+        {% endif %}
     </div>
 </a>

@@ -1,0 +1,25 @@
+<div class="row">
+    <div>
+        <h1>{{ title }}</h1>
+        <h4>{{ description }}</h4>
+        {% if author %}
+        <p>Written by <a href="/@{{ author | slugify }}">{{ author }}</a></p>
+        {% endif %}
+        <p>{{ date | date:'%A, %B %e, %Y' }}</p>
+        <p>
+            {% for tag in tags %}
+            {% if tag != 'post' %}
+            <small><a href="/tag/{{ tag | slugify }}">#{{ tag | upcase }}</a></small>
+            {% endif %}
+            {% endfor %}
+        </p>
+    </div>
+    <div class="col">
+        <div>
+            <a href="/" title="Go home"><img src="/media/logo.svg" alt="NanoRed" /></a>
+        </div>
+        {% if thumbnail %}
+        <img src="{{ thumbnail }}" alt="Thumbnail" style="max-width: 15rem; max-height: 15rem;" />
+        {% endif %}
+    </div>
+</div>

@@ -1,5 +1,5 @@
 ---
-layout: post.html
+layout: base.html
 title: Authors
 description: See all authors of NanoRed.
 ---

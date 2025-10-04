@@ -1,5 +1,5 @@
 ---
-layout: post.html
+layout: base.html
 title: All Categories
 description: See all post categories.
 ---

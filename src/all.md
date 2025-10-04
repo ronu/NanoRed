@@ -1,5 +1,5 @@
 ---
-layout: post.html
+layout: base.html
 title: All Posts
 description: See all archived posts.
 pagination:

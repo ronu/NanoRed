@@ -1,5 +1,5 @@
 ---
-layout: post.html
+layout: base.html
 title: Writing for NanoRed
 description: So you want to publish an article?
 ---

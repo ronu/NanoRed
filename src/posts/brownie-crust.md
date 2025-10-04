@@ -54,7 +54,7 @@ So far, the square brownie pan has the lowest crust-to-brownie ratio of 4 units 
 
 ## Pie Tin
 
-What if we use a pie tin instead, and bake our brownies in the shape of a circle? Blasphemy! Delicious blasphemy. We would bake \\\(\pi D\\\) crust and make \\\(\frac{\pi}{4}D^2\\\) brownie.
+What if we think out of the "box", and use a pie tin instead, baking our brownies in the shape of a circle? Blasphemy! But delicious blasphemy. We would bake \\\(\pi D\\\) crust and make \\\(\frac{\pi}{4}D^2\\\) brownie.
 
 Using the same brownie mix as before, we can still only make one square unit of brownie, so \\\(\frac{\pi}{4}D^2 = 1\\\), or \\\(D = \frac{2}{\sqrt{\pi}} \approx 1.128\\\).
 

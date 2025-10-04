@@ -1,5 +1,5 @@
 {
-    "layout": "post.html",
+    "layout": "base.html",
     "title": "Untitled",
     "description": "A classic NanoRed read.",
     "author": "Anonymous",

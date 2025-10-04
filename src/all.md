@@ -7,21 +7,13 @@ pagination:
     size: 2
     alias: posts
     reverse: true
-permalink: "all-{{ pagination.pageNumber | plus:1 }}/"
+permalink: "p{{ pagination.pageNumber | plus:1 }}/"
 ---
 {% assign current_page = pagination.pageNumber | plus:1 %}
 
-{% if current_page > 1 %}
-[Previous](/all-{{ current_page | minus:1 }})
-{% else %}
-Previous
-{% endif %}
-| Page {{ current_page }} of {{ pagination.pages.length }} |
-{% if current_page < pagination.pages.length %}
-[Next](/all-{{ current_page | plus:1 }})
-{% else %}
-Next
-{% endif %}
+{% if current_page > 1 %}[&leftarrow;](/p{{ current_page | minus:1 }}){% else %}&leftarrow;{% endif %}
+Page {{ current_page }} of {{ pagination.pages.length }}
+{% if current_page < pagination.pages.length %}[&rightarrow;](/p{{ current_page | plus:1 }}){% else %}&rightarrow;{% endif %}
 
 {% for post in posts %}
 {% include 'feat.html' post:post %}

@@ -43,7 +43,7 @@
         {% for post in recent_posts %}
         {% include 'feat.html' post:post %}
         {% endfor %}
-        <p><a href="/all">See All Posts</a></p>
+        <p><a href="/all/1">See All Posts</a> ({{ collections.post.size }})</p>
     </main>
     <footer>
         <p>&copy; {{ 'now' | date:'%Y' }} <a href="/">NanoRed</a></p>
